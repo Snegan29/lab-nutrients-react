@@ -3,8 +3,9 @@ import React, { Component } from 'react'
 export default class search extends Component {
   render() {
     return (
-        <div>
-        <input type="search" placeholder='type here' onChange={(e)=>this.props.handleSearch(e.target.value)} />
+        <div className='searchbox'>
+          <h1>Search Bar</h1>
+        <input type="search" placeholder='type here'  onChange={(e)=>this.props.handleSearch(e.target.value)} />
       </div>
     )
   }
