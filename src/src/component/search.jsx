@@ -5,7 +5,7 @@ export default class search extends Component {
     return (
         <div className='searchbox'>
           <h1>Search Bar</h1>
-        <input type="search" placeholder='type here'  onChange={(e)=>this.props.handleSearch(e.target.value)} />
+        <input type="search" placeholder='type a letter & delete'  onChange={(e)=>this.props.handleSearch(e.target.value)} />
       </div>
     )
   }
